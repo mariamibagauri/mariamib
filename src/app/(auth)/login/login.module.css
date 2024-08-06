@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.wrapper {
+  width: 500px;
+  background-color: var(--bgSoft);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  border-radius: 5px;
+}
+
+.github {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.google {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 5px;
+  }
+  .wrapper {
+    width: 250px;
+    background-color: var(--bgSoft);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 350px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 60px;
+  }
+  .wrapper {
+    width: 250px;
+    background-color: var(--bgSoft);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    border-radius: 5px;
+  }
+}
+
+
+@media (max-width: 310px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 100px;
+  }
+  .wrapper {
+    width: 220px;
+    background-color: var(--bgSoft);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 280px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 120px;
+  }
+  .wrapper {
+    width: 200px;
+    background-color: var(--bgSoft);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    border-radius: 5px;
+  }
+}
